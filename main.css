@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fcf3e1;
+}
+
+
+/* NAVBAR index.html*/
+.logo a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+}
+
+nav {
+    height: 80px;
+    font-family: 'Apparel Light';
+}
+
+label.logo{
+    color: rgb(255, 174, 0);
+    font-size: 35px;
+    line-height: 115px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Apparel Bold';
+
+}
+
+nav ul {
+    float: right;
+    margin: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding-right: 15px;
+    letter-spacing: -1px;
+}
+
+a:hover {
+    font-family: 'Apparel Bold';
+    transition: 0.5s;
+}
+
+.get-started {
+   border: line solid green;
+}
+
+.get-started a:hover {
+    background: rgb(255, 174, 0);
+    padding: 12px 12px;
+    border-radius: 15px;
+    border: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: rgb(69, 33, 2);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/* Header index.html*/
+.header {
+    padding: 200px;
+    justify-content: center;
+}
+
+.header h1 {
+    font-family: 'Apparel';
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header h4 {
+    font-family: 'Apparel Light It';
+    font-size: 25px;
+    text-align: center;
+}
+
+.header h5 {
+    font-family: 'Apparel Light';
+    font-size: 25px;
+    text-align: center;
+}
+
+.brightens {
+    color: rgb(255, 174, 0);
+}
+
+
+/* FORM getstarted.html */
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.create-account {
+    padding: 70px;
+}
+
+.create-account h2{
+    font-family: 'Apparel Bold';
+    font-size: 45px;
+    text-align: center;
+}
+
+.create-account h3{
+    font-family: 'Apparel Bold';
+    font-size: 20px;
+    text-align: center;
+}
+
+.form {
+    align-items: center;
+    max-width: 350px;
+    font-family: 'Apparel bold';
+    padding: 50px 50px;
+    padding-top: 30px;
+    border: solid black 2px;
+    justify-content: center;
+
+}
+
+
+.form h2{
+    text-align: center;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+    padding: 15px;
+}
+
+.input {
+    font-family: 'Apparel light';
+}
+
+.input-field{
+    border-radius: 50px;
+}
+
+.form .input-field {
+    margin-bottom: 14px;
+    box-shadow: 0 6px 6px -4px rgb(91, 91, 91);
+}
+
+.form .input-field input[type="text"]
+{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+button{
+    text-decoration: none;
+    background: rgb(255, 174, 0);
+    padding: 5px 5px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    border: none;
+    transition: transform .5s ease;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 174, 0);
+    font-family: 'Apparel Bold';
+}
+
+button:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+button a:hover {
+    color: #fff;
+}
+
+
+.sun {
+    height: 24px;
+    width: 23px;
+}
+
+/* pricing */
+
+.pricing-header {
+    height: 40vh;
+    text-align: center;
+    font-family: 'Apparel Bold';
+    padding: 90px;
+}
+
+.pricing-header h1 {
+    font-size: 50px;
+    color: rgb(255, 174, 0);
+}
+
+.price-choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    padding-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.free {
+    border: black 2px solid;
+    padding: 15px 15px;
+    border-radius: 25px;
+    flex: 25%;
+}
+
+.free h1{
+    font-family: 'Apparel Bold';
+    padding-bottom: 18px;
+}
+
+.free p{
+    font-family: 'Apparel light';
+}
+
+.free h3 {
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+/* Features */
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    height: 100vh;
+    padding: 50px;
+}
+
+.feature-child {
+    display: inline-block;
+    padding: 10px;
+    flex: 50%;
+}
+
+.feature-child h1 {
+    font-family: 'Apparel Bold';
+    font-size: 50px;
+    color: teal;
+}
+
+.feature-child h2{
+    padding: 20px 20px;
+    font-family: 'Apparel bold';
+    font-size: 20px;
+}
+
+
+/* Product */
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    height: 100vh;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.prodcut-child {
+    display: inline-block;
+    padding: 10px;
+    flex: 50%;
+}
+
+.product-child h1 {
+    font-family: 'Apparel Bold';
+    font-size: 50px;
+    color: teal;
+}
+
+.product-child h2{
+    padding: 20px 20px;
+    font-family: 'Apparel bold';
+    font-size: 20px;
+}
+
+
+/* download */
+.first-container {
+    padding: 10px;
+}
+
+.download-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    height: 100vh;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.download-child {
+    display: inline-block;
+    padding: 10px;
+    flex: 50%;
+}
+
+.download-child h1 {
+    font-family: 'Apparel Bold';
+    font-size: 50px;
+    color: teal;
+}
+
+.download-child h2{
+    padding: 5px 20px;
+    font-family: 'Apparel bold';
+    font-size: 20px;
+}
+
+.download-child h3{
+    padding: 5px 20px;
+    font-family: 'Apparel llight';
+    font-size: 20px;
+}
+
+.download-child p{
+    padding: 5px 20px;
+    font-family: 'Apparel light';
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    padding-bottom: 3px 3px;
+}
+
+footer a {
+    text-decoration: none;
+    color: teal;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.footer-info {
+    padding: 10px;
+    flex: 25%;
+}
+
+.footer-info h1{
+    font-size: 14px;
+    font-family: 'Apparel bold';
+}
+
+.footer-info p{
+    font-size: 14px;
+    font-family: 'Apparel light';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hamburger Menu media queries */
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #51877F;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover {
+        background: none;
+    }
+    #check:checked ~ul {
+        left: 0;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .footer-container {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .price-choices {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .feature-child {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .product-child {
+      flex-direction: column;
+    }
+  }
