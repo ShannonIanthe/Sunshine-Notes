@@ -116,7 +116,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin: 5rem 3rem;
     padding-bottom: 40px;
 }
 
@@ -261,17 +261,7 @@ button a:hover {
 .feature-container {
     display: flex;
     flex-direction: row;
-    font-size: 30px;
-    text-align: center;
-    float: right;
-    height: 100vh;
-    padding: 50px;
-}
-
-.feature-child {
-    display: inline-block;
-    padding: 10px;
-    flex: 50%;
+    margin: 6rem 3rem;
 }
 
 .feature-child h1 {
@@ -291,19 +281,19 @@ button a:hover {
 
 .product-container {
     display: flex;
-    flex-direction: row;
+    margin: 3rem 3rem;
     font-size: 30px;
-    text-align: center;
-    float: right;
-    height: 100vh;
-    padding: 50px;
-    padding-bottom: 100px;
 }
 
-.prodcut-child {
-    display: inline-block;
-    padding: 10px;
-    flex: 50%;
+img {
+    width: clamp(300px, 50%, 600px);
+}
+
+.product-child {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .product-child h1 {
@@ -315,30 +305,24 @@ button a:hover {
 .product-child h2{
     padding: 20px 20px;
     font-family: 'Apparel bold';
-    font-size: 20px;
+    font-size: clamp(10px, 4vw, 20px)
 }
 
 
-/* download */
-.first-container {
-    padding: 10px;
-}
-
+/* Download */
 .download-container {
     display: flex;
     flex-direction: row;
-    font-size: 30px;
-    text-align: center;
-    float: right;
-    height: 100vh;
-    padding: 50px;
-    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 3rem;
 }
 
 .download-child {
-    display: inline-block;
-    padding: 10px;
-    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .download-child h1 {
@@ -375,7 +359,11 @@ button a:hover {
 
 /* Footer */
 footer{
-    padding-bottom: 3px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+
 }
 
 footer a {
@@ -385,14 +373,15 @@ footer a {
 
 .footer-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     padding: 5px 10px;
+    gap: 4rem;
 }
 .footer-info {
-    padding: 10px;
-    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 
 .footer-info h1{
@@ -461,10 +450,12 @@ footer a {
     }
 }
 
+  
 
 @media (max-width: 800px) {
     .footer-container {
-      flex-direction: column;
+      flex-direction: row;
+      font-size: 10px;
     }
   }
 
