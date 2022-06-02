@@ -316,7 +316,7 @@ button a:hover {
 
 
 img {
-    width: clamp(300px, 50%, 600px);
+    width: clamp(250px, 50%, 550px);
 }
 
 .product-child {
