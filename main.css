@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,7 +26,8 @@ body {
 
 nav {
     height: 80px;
-    font-family: 'Apparel Light';
+    padding-bottom: 7rem;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 label.logo{
@@ -28,8 +36,7 @@ label.logo{
     line-height: 115px;
     padding: 0 100px;
     font-weight: bold;
-    font-family: 'Apparel Bold';
-
+    font-family: 'Cormorant Garamond', serif;
 }
 
 nav ul {
@@ -51,7 +58,7 @@ nav ul li a{
 }
 
 a:hover {
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     transition: 0.5s;
 }
 
@@ -83,25 +90,31 @@ a:hover {
 
 /* Header index.html*/
 .header {
-    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    padding-top: 5rem;
 }
 
 .header h1 {
-    font-family: 'Apparel';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 2rem;
 }
 
 .header h4 {
-    font-family: 'Apparel Light It';
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
     font-size: 25px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .header h5 {
-    font-family: 'Apparel Light';
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
     font-size: 25px;
     text-align: center;
 }
@@ -110,6 +123,19 @@ a:hover {
     color: rgb(255, 174, 0);
 }
 
+.sun-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+}
+
+.paragraph-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
 
 /* FORM getstarted.html */
 .form-wrapper {
@@ -185,13 +211,14 @@ button{
     border-radius: 5px;
     border: none;
     transition: transform .5s ease;
+    font-weight: 600;
 }
 
 button a{
     text-decoration: none;
     color: black;
     background: rgb(255, 174, 0);
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
 }
 
 button:hover {
@@ -260,19 +287,21 @@ button a:hover {
 
 .feature-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     margin: 6rem 3rem;
 }
 
 .feature-child h1 {
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
     color: teal;
 }
 
 .feature-child h2{
     padding: 20px 20px;
-    font-family: 'Apparel bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
 }
 
@@ -284,6 +313,7 @@ button a:hover {
     margin: 3rem 3rem;
     font-size: 30px;
 }
+
 
 img {
     width: clamp(300px, 50%, 600px);
@@ -297,14 +327,14 @@ justify-content: center;
 }
 
 .product-child h1 {
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
     color: teal;
 }
 
 .product-child h2{
     padding: 20px 20px;
-    font-family: 'Apparel bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: clamp(10px, 4vw, 20px)
 }
 
@@ -416,26 +446,20 @@ footer{
 
   
 
-@media (max-width: 800px) {
-    .footer-container {
-      flex-direction: row;
-      font-size: 10px;
-    }
-  }
-
   @media (max-width: 800px) {
     .price-choices {
       flex-direction: column;
     }
-  }
-
-  @media (max-width: 800px) {
+    .product-container {
+        flex-direction: column;
+    }
+    .feature-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
     .feature-child {
       flex-direction: column;
     }
-  }
-
-  @media (max-width: 800px) {
     .product-child {
       flex-direction: column;
     }
