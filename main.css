@@ -366,42 +366,6 @@ footer{
 
 }
 
-footer a {
-    text-decoration: none;
-    color: teal;
-}
-
-.footer-container {
-    display: flex;
-    align-items: center;
-    padding: 5px 10px;
-    gap: 4rem;
-}
-.footer-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-}
-
-.footer-info h1{
-    font-size: 14px;
-    font-family: 'Apparel bold';
-}
-
-.footer-info p{
-    font-size: 14px;
-    font-family: 'Apparel light';
-}
-
-
-
-
-
-
-
-
-
 
 
 

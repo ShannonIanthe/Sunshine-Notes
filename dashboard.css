@@ -194,30 +194,6 @@ input {
 
 
 
-/* Footer */
-footer{
-    padding-bottom: 3px 3px;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: vertical;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2px;
-    padding: 5px 10px;
-}
-
-.footer-info h1{
-    font-size: 14px;
-    font-family: 'Apparel bold';
-}
-
-.footer-info p{
-    font-size: 14px;
-    font-family: 'Apparel light';
-}
-
 
 
 
