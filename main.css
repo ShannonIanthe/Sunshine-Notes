@@ -17,6 +17,10 @@ body {
     background: #fcf3e1;
 }
 
+a:hover {
+    color: #676666;
+}
+
 
 /* NAVBAR index.html*/
 .logo a{
@@ -26,7 +30,7 @@ body {
 
 nav {
     height: 80px;
-    padding-bottom: 7rem;
+    padding-bottom: 6.9rem;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -151,13 +155,13 @@ a:hover {
 }
 
 .create-account h2{
-    font-family: 'Apparel Bold';
-    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
     text-align: center;
 }
 
 .create-account h3{
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
     text-align: center;
 }
@@ -165,7 +169,7 @@ a:hover {
 .form {
     align-items: center;
     max-width: 350px;
-    font-family: 'Apparel bold';
+    font-family: 'Cormorant Garamond', serif;
     padding: 50px 50px;
     padding-top: 30px;
     border: solid black 2px;
@@ -183,17 +187,12 @@ a:hover {
     padding: 15px;
 }
 
-.input {
-    font-family: 'Apparel light';
-}
-
 .input-field{
     border-radius: 50px;
 }
 
 .form .input-field {
     margin-bottom: 14px;
-    box-shadow: 0 6px 6px -4px rgb(91, 91, 91);
 }
 
 .form .input-field input[type="text"]
@@ -242,13 +241,14 @@ button a:hover {
 .pricing-header {
     height: 40vh;
     text-align: center;
-    font-family: 'Apparel Bold';
     padding: 90px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .pricing-header h1 {
     font-size: 50px;
     color: rgb(255, 174, 0);
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .price-choices {
@@ -269,7 +269,7 @@ button a:hover {
 }
 
 .free h1{
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     padding-bottom: 18px;
 }
 
@@ -356,20 +356,21 @@ justify-content: center;
 }
 
 .download-child h1 {
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
     color: teal;
 }
 
 .download-child h2{
     padding: 5px 20px;
-    font-family: 'Apparel bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
+    font-weight: 900;
 }
 
 .download-child h3{
     padding: 5px 20px;
-    font-family: 'Apparel llight';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
 }
 
@@ -462,5 +463,8 @@ footer{
     }
     .product-child {
       flex-direction: column;
+    }
+    .download-container {
+        flex-direction: column;
     }
   }

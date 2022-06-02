@@ -4,44 +4,59 @@
     box-sizing: border-box;
 }
 
+.logo a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+}
+
 nav {
-    display: flex;
-    flex-direction: row;
-    padding: 10px 20px;
+    height: 80px;
+    padding-bottom: 6.9rem;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-/* Dark Toggle */
-body.dark {
-    background-color: #323131;
-    color: #ebac2d;
+label.logo{
+    color: rgb(255, 174, 0);
+    font-size: 35px;
+    line-height: 115px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-.toggle-container {
-    position: fixed;
-    top: 10px;
-    right: 10px;
+nav ul {
+    float: right;
+    margin: 20px;
 }
 
-label {
-    background-color: rgb(44, 43, 45);
-    border-radius: 50%;
+nav ul li{
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    user-select: none;
-    transition: background 0.3s linear;
-
+    line-height: 70px;
+    margin: 0 5px;
 }
 
-body.dark label {
-    background-color: rgb(252, 243, 225);
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding-right: 15px;
+    letter-spacing: -1px;
 }
 
-.input-check {
-    visibility: hidden;
+a:hover {
+    font-family: 'Cormorant Garamond', serif;
+    transition: 0.5s;
 }
 
+.get-started {
+   border: line solid green;
+}
+
+.get-started a:hover {
+    background: rgb(255, 174, 0);
+    padding: 12px 12px;
+    border-radius: 15px;
+    border: none;
+}
 
 .checkbtn {
     font-size: 30px;
@@ -73,13 +88,11 @@ img {
 .container-all {
     display: flex;
     align-items: center;
-    
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
     text-align: center;
     padding: 5rem;
-    transition: background 0.3s linear, color 0.3s linear;
 }
 
 p{
@@ -94,7 +107,7 @@ p{
 }
 
 header h1 {
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 3.5rem;
     line-height: 2;
 }
@@ -141,7 +154,7 @@ input {
     background-color: rgb(255, 174, 0);
     color: black;
     font-size: 1.6rem;
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     cursor: pointer;
     transition: all .3s;
 }
@@ -178,7 +191,7 @@ input {
     margin-top: 5px;
     outline: none;
     border: none;
-    font-family: 'Apparel Bold';
+    font-family: 'Cormorant Garamond', serif;
     border-radius: 3px;
     cursor: pointer;
     background-color: #C1554D;
