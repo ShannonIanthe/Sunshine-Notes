@@ -1,6 +1,6 @@
-let addBtn = document.getElementById('add-btn');
+let addBtn   = document.getElementById('add-btn');
 let addTitle = document.getElementById('note-title');
-let addTxt = document.getElementById('note-text');
+let addTxt   = document.getElementById('note-text');
 const toggle = document.getElementById('toggle');
 
 toggle.addEventListener('change', (e) => {

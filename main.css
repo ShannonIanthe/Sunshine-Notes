@@ -85,6 +85,7 @@ a:hover {
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    padding-top: 1rem;
 }
 
 #check {
@@ -307,13 +308,11 @@ button a:hover {
 
 
 /* Product */
-
 .product-container {
     display: flex;
     margin: 3rem 3rem;
     font-size: 30px;
 }
-
 
 img {
     width: clamp(250px, 50%, 550px);
@@ -385,25 +384,6 @@ justify-content: center;
 
 
 
-
-
-
-/* Footer */
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-
-
-
-
-
 /* Hamburger Menu media queries */
 @media (max-width: 952px) {
     label.logo{
@@ -421,18 +401,18 @@ footer{
     }
     ul {
         position: fixed;
-        width: 100%;
-        height: 100vh;
+        width: 93%;
+        height: 80vh;
         background: #51877F;
-        top: 80px;
-        left: -110%;
+        top: 70px;
+        left: -100%;
         text-align: center;
         transition: all 0.5s;
     }
     nav ul li {
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 10px;
     }
     nav ul li a{
         font-size: 20px;
